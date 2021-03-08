@@ -1,3 +1,12 @@
+/* 
+Escreva um programa que receba o nome de um lutador e seu peso. Em seguida, informe a categoria a que pertence o lutador, conforme o Quadro abaixo 
+(note que o quadro foi criado para efeito deste exercício e não condiz com qualquer categoria de luta). 
+A saída do programa deve exibir na tela uma frase com o padrão descrito a seguir:
+Nome fornecido: Pepe Jordão
+Peso fornecido: 73.4
+>> O lutador Pepe Jordão pesa 73.4 kg e se enquadra na categoria Ligeiro.
+*/
+
 package Questoes;
 
 import java.util.Scanner;
