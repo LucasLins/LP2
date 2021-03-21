@@ -8,8 +8,10 @@ public class Menu {
 	public static void main(String[] args) {
 		
 		Questao1 q01;
+		Questao2 q02;
 		
 		q01 = new Questao1();
+		q02 = new Questao2();
 		
 		int choice = 0;
 		do {
@@ -28,6 +30,10 @@ public class Menu {
 				
 				case "Questão 1":
 					q01.exibirq1();
+					break;
+					
+				case "Questão 2":
+					q02.exibirq2();
 					break;
 					
 				case "null":
